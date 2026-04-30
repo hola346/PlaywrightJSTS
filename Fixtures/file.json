@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "coin": "Czech Koruna",
+    "symbol": "MKD",
+    "price": "375.50",
+    "change": 5.53
+  },
+  {
+    "id": 2,
+    "coin": "Tala",
+    "symbol": "MVR",
+    "price": "449.98",
+    "change": 4.87
+  },
+  {
+    "id": 3,
+    "coin": "Swiss Franc",
+    "symbol": "TZS",
+    "price": "328.83",
+    "change": -3.43
+  },
+  {
+    "id": 4,
+    "coin": "Tugrik",
+    "symbol": "UGX",
+    "price": "431.47",
+    "change": -0.93
+  },
+  {
+    "id": 5,
+    "coin": "Zambian Kwacha",
+    "symbol": "JMD",
+    "price": "769.60",
+    "change": -0.67
+  },
+  {
+    "id": 6,
+    "coin": "Kenyan Shilling",
+    "symbol": "KGS",
+    "price": "357.19",
+    "change": 7.42
+  },
+  {
+    "id": 7,
+    "coin": "Indian Rupee",
+    "symbol": "PAB",
+    "price": "565.75",
+    "change": -1.69
+  },
+  {
+    "id": 8,
+    "coin": "Iraqi Dinar",
+    "symbol": "RSD",
+    "price": "595.83",
+    "change": -8.22
+  },
+  {
+    "id": 9,
+    "coin": "Cedi",
+    "symbol": "ZAR",
+    "price": "852.50",
+    "change": 8.45
+  },
+  {
+    "id": 10,
+    "coin": "Hong Kong Dollar",
+    "symbol": "RSD",
+    "price": "696.06",
+    "change": -4.28
+  },
+  {
+    "id": 11,
+    "coin": "Surinam Dollar",
+    "symbol": "HTG",
+    "price": "790.67",
+    "change": 8.82
+  },
+  {
+    "id": 12,
+    "coin": "Bahraini Dinar",
+    "symbol": "MUR",
+    "price": "147.11",
+    "change": -9.72
+  },
+  {
+    "id": 13,
+    "coin": "Balboa",
+    "symbol": "KMF",
+    "price": "913.44",
+    "change": -0.84
+  },
+  {
+    "id": 14,
+    "coin": "Kwacha",
+    "symbol": "NAD",
+    "price": "937.31",
+    "change": 0.89
+  },
+  {
+    "id": 15,
+    "coin": "Belarusian Ruble",
+    "symbol": "BSD",
+    "price": "847.05",
+    "change": 4.61
+  },
+  {
+    "id": 16,
+    "coin": "Pakistan Rupee",
+    "symbol": "KHR",
+    "price": "85.00",
+    "change": 6.3
+  },
+  {
+    "id": 17,
+    "coin": "Brazilian Real",
+    "symbol": "EUR",
+    "price": "166.84",
+    "change": 0.09
+  },
+  {
+    "id": 18,
+    "coin": "Iceland Krona",
+    "symbol": "TZS",
+    "price": "135.39",
+    "change": 2.05
+  },
+  {
+    "id": 19,
+    "coin": "Saint Helena Pound",
+    "symbol": "JMD",
+    "price": "543.86",
+    "change": 2.57
+  },
+  {
+    "id": 20,
+    "coin": "Riel",
+    "symbol": "AFN",
+    "price": "878.21",
+    "change": 6.77
+  }
+][
+  {
+    "id": 1,
+    "title": "facere calcar aestas",
+    "completed": false,
+    "userId": 24
+  },
+  {
+    "id": 2,
+    "title": "vapulus desidero thermae",
+    "completed": false,
+    "userId": 32
+  },
+  {
+    "id": 3,
+    "title": "derelinquo ademptio absconditus",
+    "completed": false,
+    "userId": 18
+  },
+  {
+    "id": 4,
+    "title": "totidem tamquam vulticulus",
+    "completed": true,
+    "userId": 2
+  },
+  {
+    "id": 5,
+    "title": "administratio aperte alioqui",
+    "completed": false,
+    "userId": 14
+  },
+  {
+    "id": 6,
+    "title": "taedium vir amoveo",
+    "completed": true,
+    "userId": 43
+  },
+  {
+    "id": 7,
+    "title": "denuo antea una",
+    "completed": true,
+    "userId": 32
+  },
+  {
+    "id": 8,
+    "title": "illum careo dens",
+    "completed": true,
+    "userId": 11
+  },
+  {
+    "id": 9,
+    "title": "curso demo iusto",
+    "completed": true,
+    "userId": 30
+  },
+  {
+    "id": 10,
+    "title": "assumenda adopto admoveo",
+    "completed": true,
+    "userId": 12
+  },
+  {
+    "id": 11,
+    "title": "ea vinculum suadeo",
+    "completed": false,
+    "userId": 47
+  },
+  {
+    "id": 12,
+    "title": "trado adeptio vulnus",
+    "completed": true,
+    "userId": 1
+  },
+  {
+    "id": 13,
+    "title": "dolorem bibo celo",
+    "completed": true,
+    "userId": 9
+  },
+  {
+    "id": 14,
+    "title": "tamquam caterva aut",
+    "completed": false,
+    "userId": 34
+  },
+  {
+    "id": 15,
+    "title": "talio tergum patrocinor",
+    "completed": false,
+    "userId": 37
+  },
+  {
+    "id": 16,
+    "title": "strenuus atrox contabesco",
+    "completed": true,
+    "userId": 44
+  },
+  {
+    "id": 17,
+    "title": "magni carcer terreo",
+    "completed": true,
+    "userId": 23
+  },
+  {
+    "id": 18,
+    "title": "deleniti aureus conicio",
+    "completed": true,
+    "userId": 27
+  },
+  {
+    "id": 19,
+    "title": "unde catena advenio",
+    "completed": true,
+    "userId": 7
+  },
+  {
+    "id": 20,
+    "title": "tabgo sub odit",
+    "completed": false,
+    "userId": 12
+  },
+  {
+    "id": 21,
+    "title": "crinis damno tredecim",
+    "completed": false,
+    "userId": 15
+  },
+  {
+    "id": 22,
+    "title": "trepide villa socius",
+    "completed": false,
+    "userId": 32
+  },
+  {
+    "id": 23,
+    "title": "ter deprimo amplexus",
+    "completed": true,
+    "userId": 45
+  },
+  {
+    "id": 24,
+    "title": "sint desparatus utrum",
+    "completed": true,
+    "userId": 47
+  },
+  {
+    "id": 25,
+    "title": "aro possimus tubineus",
+    "completed": true,
+    "userId": 27
+  },
+  {
+    "id": 26,
+    "title": "complectus dolores tondeo",
+    "completed": true,
+    "userId": 45
+  },
+  {
+    "id": 27,
+    "title": "amaritudo turba ascisco",
+    "completed": false,
+    "userId": 8
+  },
+  {
+    "id": 28,
+    "title": "desparatus aspicio curriculum",
+    "completed": true,
+    "userId": 31
+  },
+  {
+    "id": 29,
+    "title": "pectus suadeo alius",
+    "completed": true,
+    "userId": 1
+  },
+  {
+    "id": 30,
+    "title": "totam comparo approbo",
+    "completed": false,
+    "userId": 50
+  },
+  {
+    "id": 31,
+    "title": "cogo illo mollitia",
+    "completed": false,
+    "userId": 34
+  },
+  {
+    "id": 32,
+    "title": "demo quo absum",
+    "completed": true,
+    "userId": 29
+  },
+  {
+    "id": 33,
+    "title": "ullus vos cometes",
+    "completed": false,
+    "userId": 21
+  },
+  {
+    "id": 34,
+    "title": "autus sustineo valens",
+    "completed": false,
+    "userId": 34
+  },
+  {
+    "id": 35,
+    "title": "substantia dolores via",
+    "completed": true,
+    "userId": 24
+  },
+  {
+    "id": 36,
+    "title": "eum tantum utrum",
+    "completed": false,
+    "userId": 22
+  },
+  {
+    "id": 37,
+    "title": "officiis agnitio similique",
+    "completed": false,
+    "userId": 8
+  },
+  {
+    "id": 38,
+    "title": "torrens conservo inflammatio",
+    "completed": false,
+    "userId": 21
+  },
+  {
+    "id": 39,
+    "title": "color volutabrum tenus",
+    "completed": false,
+    "userId": 8
+  },
+  {
+    "id": 40,
+    "title": "virtus vindico repellendus",
+    "completed": true,
+    "userId": 5
+  },
+  {
+    "id": 41,
+    "title": "deprecator consequatur conicio",
+    "completed": false,
+    "userId": 30
+  },
+  {
+    "id": 42,
+    "title": "uredo temeritas uxor",
+    "completed": true,
+    "userId": 9
+  },
+  {
+    "id": 43,
+    "title": "adstringo crepusculum damnatio",
+    "completed": true,
+    "userId": 49
+  },
+  {
+    "id": 44,
+    "title": "desino vitiosus cattus",
+    "completed": true,
+    "userId": 16
+  },
+  {
+    "id": 45,
+    "title": "aequitas voveo subiungo",
+    "completed": false,
+    "userId": 27
+  },
+  {
+    "id": 46,
+    "title": "vociferor velum virgo",
+    "completed": true,
+    "userId": 10
+  },
+  {
+    "id": 47,
+    "title": "cohibeo attero xiphias",
+    "completed": false,
+    "userId": 33
+  },
+  {
+    "id": 48,
+    "title": "terreo universe teres",
+    "completed": false,
+    "userId": 25
+  },
+  {
+    "id": 49,
+    "title": "candidus consectetur ullam",
+    "completed": false,
+    "userId": 7
+  },
+  {
+    "id": 50,
+    "title": "candidus vulnus suspendo",
+    "completed": true,
+    "userId": 41
+  }
+]

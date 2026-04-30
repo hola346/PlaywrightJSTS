@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Login OK",
+        "user": "standard_user",
+        "expected": "Products",
+        "type": "success"
+    },
+    {
+        "name": "Locked User",
+        "user": "locked_out_user",
+        "expected": "Sorry, this user has been locked",
+        "type": "error"
+    }
+]

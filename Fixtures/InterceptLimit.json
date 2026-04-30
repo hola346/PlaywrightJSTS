@@ -1,0 +1,113 @@
+{
+    "data": [
+        {
+            "id": "6933f6789088fe0b10715808",
+            "image": "",
+            "likes": 0,
+            "tags": [],
+            "text": "fdfdsfsd",
+            "publishDate": "2025-12-06T09:25:12.681Z",
+            "updatedDate": "2025-12-06T09:25:12.681Z",
+            "owner": {
+                "id": "60d0fe4f5311236168a10a0d",
+                "title": "mr",
+                "firstName": "1111111",
+                "lastName": "111111111",
+                "picture": "https://randomuser.me/api/portraits/med/men/95.jpg"
+            }
+        },
+        {
+            "id": "68fa88bbf3d4ac1e4b73510d",
+            "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+            "likes": 0,
+            "tags": [
+                "coding",
+                "qa",
+                "automation"
+            ],
+            "text": "Exploring the beauty of clean code and automation.",
+            "publishDate": "2025-10-23T19:57:47.379Z",
+            "updatedDate": "2025-10-23T19:57:47.379Z",
+            "owner": {
+                "id": "68fa87d7f3d4ac1a3c734a7b",
+                "title": "mr",
+                "firstName": "22222222",
+                "lastName": "22222222",
+                "picture": "https://randomuser.me/api/portraits/med/men/12.jpg"
+            }
+        },
+        {
+            "id": "6839f19d8932b705582f57c1",
+            "image": "https//:url",
+            "likes": 0,
+            "tags": [
+                "tag"
+            ],
+            "text": "sdu",
+            "publishDate": "2025-05-30T17:57:49.569Z",
+            "updatedDate": "2025-05-30T17:57:49.569Z",
+            "owner": {
+                "id": "67ad8e5e0d03253fe78b405a",
+                "firstName": "33333333",
+                "lastName": "33333333"
+            }
+        },
+        {
+            "id": "6839e1c48932b7254d2f505e",
+            "image": "https://example.com/image.jpg",
+            "likes": 0,
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "text": "Example text",
+            "publishDate": "2025-05-30T16:50:12.371Z",
+            "updatedDate": "2025-05-30T16:50:12.371Z",
+            "owner": {
+                "id": "67ad8e5e0d03253fe78b405a",
+                "firstName": "Alex1",
+                "lastName": "QA1"
+            }
+        },
+        {
+            "id": "6839df618932b76d582f4fff",
+            "image": "https://example.com/image.jpg",
+            "likes": 0,
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "text": "Example text",
+            "publishDate": "2025-05-30T16:40:01.491Z",
+            "updatedDate": "2025-05-30T16:40:01.491Z",
+            "owner": {
+                "id": "67ad8e5e0d03253fe78b405a",
+                "firstName": "Alex1",
+                "lastName": "QA1"
+            }
+        },
+        {
+            "id": "6839df618932b76d582f4fff",
+            "image": "https://example.com/image.jpg",
+            "likes": 0,
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "text": "Example text",
+            "publishDate": "2025-05-30T16:40:01.491Z",
+            "updatedDate": "2025-05-30T16:40:01.491Z",
+            "owner": {
+                "id": "67ad8e5e0d03253fe78b405a",
+                "firstName": "Alex1",
+                "lastName": "QA1"
+            }
+        }
+    ],
+    "total": 241,
+    "page": 0,
+    "limit": 6
+}
