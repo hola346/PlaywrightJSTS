@@ -1,0 +1,34 @@
+[
+    {
+        "fName": "perro",
+        "lName": "perez",
+        "email": "New_2345@newreally.com",
+        "number": "6258665123",
+        "occupation": "Student",
+        "password": "Bb/dffg3412345678"
+    },
+    {
+        "fName": "perro2",
+        "lName": "perez",
+        "email": "22222New_2345@newreally.com",
+        "number": "6258665123",
+        "occupation": "Student",
+        "password": "222222Bb/dffg3412345678"
+    },
+    {
+        "fName": "perro3",
+        "lName": "perez",
+        "email": "33333New_2345@newreally.com",
+        "number": "6258665123",
+        "occupation": "Student",
+        "password": "33333Bb/dffg3412345678"
+    },
+    {
+        "fName": "apiUser",
+        "lName": "perez",
+        "email": "apiUser@apiUser.com",
+        "number": "6258665123",
+        "occupation": "Student",
+        "password": "apiUser/dffg3412345678"
+    }
+]

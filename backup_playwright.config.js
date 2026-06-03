@@ -13,14 +13,16 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 
+import 'dotenv/config';
+
 module.exports = {
-  timeout: 60000, // test timeout
+  timeout: 30000, // test timeout
   expect: {
-    timeout: 10000
+    timeout: 5000
   }
 };
 
-console.log('>>> PLAYWRIGHT CONFIG LOADED FROM XXX <<<');
+console.log('>>> PLAYWRIGHT CONFIG LOADED FROM OLD Pytestssssss <<<');
 
 export default defineConfig({
   testDir: './tests',
@@ -38,8 +40,8 @@ export default defineConfig({
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    /* Base URL to use in actions like `await page.goto('')`. */
-    // baseURL: 'http://localhost:3000',
+    baseURL: process.env.BASE_URL,
+
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -62,6 +64,17 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
 
+    {
+      name: 'setup',
+      testMatch: /auth\.setup\.js/,
+    },
+    {
+      name: 'tests',
+      use: {
+        storageState: 'storageState.json',
+      },
+      dependencies: ['setup'],
+    }
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',

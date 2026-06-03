@@ -1,0 +1,88 @@
+import { defineConfig, devices } from '@playwright/test';
+import { defineBddConfig } from 'playwright-bdd';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+console.log('This is LAASSSSTTTTT config version');
+
+// BDD config (only used for generation, not merged globally)
+const bddConfig = defineBddConfig({
+  featuresRoot: './features',
+  steps: [
+    './steps/**/*.js',
+    './Fixtures/bddFixture.js'
+  ],
+});
+
+export default defineConfig({
+  // Global settings
+  timeout: 30000,
+  expect: {
+    timeout: 5000,
+  },
+
+  use: {
+    baseURL: process.env.BASE_URL,
+    trace: 'on-first-retry',
+    headless: false,
+  },
+
+  // IMPORTANT: separate projects cleanly
+  projects: [
+    /**
+     * =========================
+     * 1. NORMAL PLAYWRIGHT TESTS
+     * =========================
+     */
+    {
+      name: 'ui-tests',
+      testDir: './tests',
+      use: {
+        ...devices['Desktop Chrome'],
+      },
+    },
+
+    /**
+     * =========================
+     * 2. BDD TESTS
+     * =========================
+     */
+    {
+      name: 'bdd-tests',
+      testDir: './.features-gen',
+      use: {
+        ...devices['Desktop Chrome'],
+      },
+      // IMPORTANT: inherit BDD config ONLY here
+      ...bddConfig,
+    },
+
+    /**
+     * =========================
+     * 3. SETUP PROJECT (AUTH)
+     * =========================
+     */
+    {
+      name: 'setup',
+      testMatch: /auth\.setup\.js/,
+      use: {
+        ...devices['Desktop Chrome'],
+      },
+    },
+
+    /**
+     * =========================
+     * 4. CHROMIUM (OPTIONAL REGRESSION SUITE)
+     * =========================
+     */
+    {
+      name: 'chromium',
+      use: {
+        ...devices['Desktop Chrome'],
+        // storageState: 'storageState.json',
+      },
+      dependencies: ['setup'],
+    },
+  ],
+});

@@ -1,0 +1,9 @@
+{
+    "origin": "BCN",
+    "destination": "BKK",
+    "date": "2023-10-10",
+    "commodity": "General Cargo",
+    "units": "1",
+    "dimensions": "100 - 100 - 100",
+    "weight": "100"
+}

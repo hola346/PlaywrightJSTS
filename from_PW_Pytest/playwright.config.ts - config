@@ -1,0 +1,53 @@
+import { defineConfig, devices } from '@playwright/test';
+import { defineBddConfig } from 'playwright-bdd';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const bddConfig = defineBddConfig({
+  featuresRoot: './features',
+  steps: [
+    './steps/**/*.js',
+    './Fixtures/bddFixture.js'
+  ],
+});
+
+export default defineConfig({
+  ...bddConfig,
+
+  // REMOVE THIS HARDCODED PROPERTY:
+  // testDir: './tests',
+
+  // CHANGE TO THIS:
+  // Use the BDD generated folder if it exists, otherwise default to your standard tests folder
+  testDir: './.features-gen',
+
+  timeout: 30000,
+
+  expect: {
+    timeout: 5000,
+  },
+
+  use: {
+    baseURL: process.env.BASE_URL,
+    trace: 'on-first-retry',
+    headless: false,
+  },
+
+  projects: [
+    {
+      name: 'setup',
+      testDir: './tests',
+      testMatch: '**/auth.setup.js',
+      fullyParallel: false,
+    },
+    {
+      name: 'chromium',
+      use: {
+        ...devices['Desktop Chrome'],
+        // storageState: 'storageState.json',
+      },
+      dependencies: ['setup'],
+    },
+  ],
+});
